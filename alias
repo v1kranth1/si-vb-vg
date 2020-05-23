@@ -1,16 +1,3 @@
-#!/bin/bash
-
-#autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
-
-#SADA --> Provide the command here for deploy.spec
-#Is this correct? --> k explain deploy.spec --recursive > deploy.spec
-
-alias dir='ls -la'
-alias cls='clear'
-alias ref='source ~/.bashrc'
-alias edit='vi ~/.bashrc'
-
-
 alias k=kubectl
 alias kubect=kubectl
 alias sada='k run -it pod1 --image=cosmintitei/bash-curl --restart=Never --rm'
