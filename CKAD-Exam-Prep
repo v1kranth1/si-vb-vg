@@ -52,4 +52,4 @@ label pod3 as app=db
 allow ingress for app=db only from app=appl
 allow ingress for app=appl only from app=web
 
-This is test Giri
+
