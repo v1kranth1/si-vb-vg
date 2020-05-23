@@ -2,6 +2,9 @@
 
 #autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 
+#SADA --> Provide the command here for deploy.spec
+#Is this correct? --> k explain deploy.spec --recursive > deploy.spec
+
 alias dir='ls -la'
 alias cls='clear'
 alias ref='source ~/.bashrc'
